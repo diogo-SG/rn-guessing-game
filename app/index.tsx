@@ -16,13 +16,13 @@ export default function Index() {
   };
 
   let screen = <StartGameScreen onStartGame={handleStartGame} />;
+
   if (userNumber) {
     screen = (
       <GameScreen
         userNumber={userNumber}
         onGameOver={() => {
           setGameOver(true);
-          setUserNumber(null);
         }}
       />
     );
