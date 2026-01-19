@@ -2,7 +2,7 @@ import { Dimensions, Image, ScrollView, StyleSheet, Text, View, useWindowDimensi
 
 import PrimaryButton from "../components/ui/PrimaryButton";
 import Title from "../components/ui/Title.ios";
-import Colors from "../constants/colors";
+import Colors from "../constants/colors.ios";
 
 function GameOverScreen({
   roundsNumber,

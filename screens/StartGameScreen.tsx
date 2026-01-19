@@ -13,7 +13,7 @@ import Card from "../components/ui/Card";
 import InstructionText from "../components/ui/InstructionText";
 import PrimaryButton from "../components/ui/PrimaryButton";
 import Title from "../components/ui/Title.ios";
-import Colors from "../constants/colors";
+import Colors from "../constants/colors.ios";
 
 function StartGameScreen({ onPickNumber }: { onPickNumber: (number: number) => void }) {
   const [enteredNumber, setEnteredNumber] = useState("");

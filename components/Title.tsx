@@ -1,4 +1,4 @@
-import Colors from "@/constants/colors";
+import Colors from "@/constants/colors.ios";
 import { StyleSheet, Text } from "react-native";
 
 function Title({ children }: { children: React.ReactNode }) {
