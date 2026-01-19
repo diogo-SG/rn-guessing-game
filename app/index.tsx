@@ -14,8 +14,8 @@ export default function Index() {
   const [guessRounds, setGuessRounds] = useState<number>(0);
 
   const [fontsLoaded] = useFonts({
-    "open-sans": require("./assets/fonts/OpenSans-Regular.ttf"),
-    "open-sans-bold": require("./assets/fonts/OpenSans-Bold.ttf"),
+    "open-sans": require("../assets/fonts/OpenSans-Regular.ttf"),
+    "open-sans-bold": require("../assets/fonts/OpenSans-Bold.ttf"),
   });
 
   if (!fontsLoaded) {
@@ -50,7 +50,7 @@ export default function Index() {
   return (
     <LinearGradient colors={[Colors.primary700, Colors.accent500]} style={styles.rootScreen}>
       <ImageBackground
-        source={require("./assets/images/background.png")}
+        source={require("../assets/images/dice.jpg")}
         resizeMode="cover"
         style={styles.rootScreen}
         imageStyle={styles.backgroundImage}>
